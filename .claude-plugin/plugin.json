@@ -1,0 +1,20 @@
+{
+  "name": "srk-re",
+  "version": "2.0.0",
+  "description": "SRK RE — reverse engineer apps and files with Claude Code: Android APKs, JavaScript/Electron apps, native binaries, .NET, websites and firmware. Powered by the REA engine. Analysis runs on your own computer.",
+  "author": {
+    "name": "Dr. M. Rajkumar — ShazVerse Technologies",
+    "email": "contact@shazverse.com",
+    "url": "https://shazverse.com"
+  },
+  "homepage": "https://shazverse.com",
+  "repository": "https://github.com/rajkumarsurgeon34-droid/srk-re",
+  "license": "MIT",
+  "keywords": ["reverse-engineering", "apk", "android", "electron", "ghidra", "binary-analysis", "firmware", "mcp", "srk"],
+  "mcpServers": {
+    "srk-engine": {
+      "command": "npx",
+      "args": ["-y", "rea-agents@6.9.0", "mcp"]
+    }
+  }
+}

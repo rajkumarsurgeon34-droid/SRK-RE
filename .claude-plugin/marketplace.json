@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "srk",
+  "description": "SRK family plugins for Claude Code by ShazVerse Technologies",
+  "owner": {
+    "name": "ShazVerse Technologies",
+    "email": "contact@shazverse.com",
+    "url": "https://shazverse.com"
+  },
+  "plugins": [
+    {
+      "name": "srk-re",
+      "source": "./",
+      "description": "Reverse engineer Android APKs, JavaScript/Electron apps, native binaries, websites and firmware with Claude Code. Powered by the REA engine.",
+      "version": "2.0.0",
+      "category": "development"
+    }
+  ]
+}
